@@ -1,10 +1,9 @@
-# click
+# PMG
 
-A fast package manager for NodeJS written in Rust.
+the official, lightweight, and fast package manager for delux written in Rust.
 
 ## Installation
-Make sure you have Rust installed first!
-
+comes with delux linux for other distros install rust and
 - Clone the repository
 - Run `cargo run --release install package` or `cargo run --release install package@version`
 
