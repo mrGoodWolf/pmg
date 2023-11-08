@@ -12,10 +12,6 @@ In order for the symlinks to work you need to use the `--preserve-symlinks` flag
 
 ## How fast?
 
-Benchmark of [bun](https://bun.sh/) vs click **clean install**:
-![Benchmark of bun vs click](./screenshots/benchmark.png)
-
-Based on benchmarks done with [hyperfine](https://github.com/sharkdp/hyperfine), click is more or less the same speed as [Bun](https://bun.sh/) for **clean installs**. Due to the nature of HTTP, it is hard to give an accurate answer as to who is "faster", as there are occassions where bun is faster than click. Sadly, at the moment we are 3-6x slower than Bun for loading cached modules.
 
 ## What can it do?
 
