@@ -1,6 +1,6 @@
 [package]
-name = "click"
-version = "0.1.0"
+name = "PMG"
+version = "0.0.1"
 edition = "2021"
 
 [dependencies]
