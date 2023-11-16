@@ -16,7 +16,7 @@ At the moment it can perform an efficient clean install of a package which is ca
 
 - Efficient version resolution which minimizes the HTTP throughput by using `{registry}/{package}/{version}` instead of `{registry}/{package}` which has a significantly larger body size
 - Use of [reqwest](https://docs.rs/reqwest/latest/reqwest/) to create a HTTP connection pool
-- Parallel and asyncronous HTTP requests to the [NPM Registry API](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md)
+- Parallel and asyncronous HTTP requests to the [PMG Host Downloading API](https://github.com/mrGoodwolf)
 - Use of the `Accept: application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*` header which results in smaller HTTP body sizes
 - Duplicate avoidance by storing pre-installed versions in a HashMap for clean installs
 - A global cache that symlinks point to, avoiding any file copies
