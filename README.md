@@ -7,11 +7,6 @@ comes with delux linux for other distros install rust and
 - Clone the repository
 - Run `cargo run --release install package` or `cargo run --release install package@version`
 
-**IMPORTANT ⚠️**
-In order for the symlinks to work you need to use the `--preserve-symlinks` flag when running `node myfile.js`. If development continues I'll make this easier so you don't have to do this extra step!
-
-## How fast?
-
 
 ## What can it do?
 
