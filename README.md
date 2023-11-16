@@ -5,8 +5,8 @@ the official, lightweight, and fast package manager for delux written in C99.
 ## Installation
 comes with delux linux for other distros install `gcc` and
 - Clone the repository
-- Run `make` then `sudo cp ./pmg /bin/`
-- NOw just type `pmg install {package-name}`
+- Run `make` then `sudo cp ./pmg /bin/` finally `cd / && cd etc && sudo mkdir pmg && cd pmg && sudo touch pkgls.txt` 
+- Now just type `pmg install {package-name}`
 
 
 ## What can it do?
