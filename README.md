@@ -1,11 +1,12 @@
 # PMG
 
-the official, lightweight, and fast package manager for delux written in Rust.
+the official, lightweight, and fast package manager for delux written in C99.
 
 ## Installation
-comes with delux linux for other distros install rust and
+comes with delux linux for other distros install `gcc` and
 - Clone the repository
-- Run `cargo run --release install package` or `cargo run --release install package@version`
+- Run `make` then `sudo cp ./pmg /bin/`
+- NOw just type `pmg install {package-name}`
 
 
 ## What can it do?
